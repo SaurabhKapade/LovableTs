@@ -6,4 +6,5 @@ dotenv.config({path:path.join(__dirname, "../../../.env")});
 export const env = {
     DATABASE_URL: process.env.DATABASE_URL || "",
     PORT: process.env.PORT || 3000,
+    NODE_ENV : process.env.NODE_ENV || ""
 } as const;
